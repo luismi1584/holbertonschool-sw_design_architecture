@@ -17,3 +17,16 @@ The diagram models:
 
 It includes class attributes, methods, relationships,
 and multiplicities.
+
+## Task 1 - Sequence Diagram
+
+File: 1-sequence_diagram.mmd
+
+A Mermaid sequence diagram representing the process
+of a user borrowing a book from the library.
+
+The diagram shows:
+- The User requesting a loan
+- The Library marking the Book as unavailable
+- The creation of a Loan
+- The Library confirming the loan to the User
