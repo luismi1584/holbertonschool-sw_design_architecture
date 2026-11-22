@@ -46,3 +46,32 @@ python3 0-factory.py
 - Python 3.10 or later
 - PEP 8 coding style
 - No external dependencies
+
+## Task 2: Decorator - Adding a New Wrapper
+
+File: 2-decorator.py
+
+This task demonstrates the Decorator structural design pattern.
+
+Coffee is the base beverage, costing 50 cents.
+
+Decorators:
+- MilkDecorator adds 10 cents.
+- SugarDecorator adds 5 cents.
+- CaramelDecorator adds 15 cents.
+
+Decorators can be combined without modifying existing classes.
+
+Example:
+
+    cup3 = CaramelDecorator(MilkDecorator(SugarDecorator(Coffee())))
+
+Expected output:
+
+    Coffee + milk 60
+    Coffee + sugar + milk 65
+    Coffee + sugar + milk + caramel 80
+
+Run:
+
+    python3 2-decorator.py
